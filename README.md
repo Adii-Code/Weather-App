@@ -1,4 +1,5 @@
 Get live weather updates at your fingertips with this responsive website project!
+https://liveweatherchecker.netlify.app/
 
 Explore current weather conditions and forecasts for any location worldwide. Built with HTML, CSS, and JavaScript, this project features a user-friendly interface that adapts effortlessly to different screen sizes.
 
