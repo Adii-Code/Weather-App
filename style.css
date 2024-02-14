@@ -1,0 +1,171 @@
+body {
+    background-color: #070F2B;
+    color: whitesmoke;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    width: 45vw;
+    height: 50vh;
+    border: 2px solid rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 1vw;
+}
+
+
+.temp {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+
+.weather {
+    color: darkgray;
+}
+
+
+.form {
+    text-align: center;
+}
+
+
+#search {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20vw;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#search:hover {
+    box-shadow: 2px 4px 20px rgb(0, 0, 0);
+    transition: 1s;
+}
+
+#searchBtn {
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    padding: 1px 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+#searchBtn:hover {
+    cursor: pointer;
+    background-color: #4e2aa1;
+    color: #fff;
+    box-shadow: 2px 4px 20px rgb(0, 0, 0);
+    transition: .4s;
+}
+
+
+.gradient-background {
+    background: linear-gradient(to right, #070F2B, #112b70, #190645);
+    color: white;
+    text-align: center;
+}
+
+
+.footer {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    right: 18px;
+    justify-content: space-between;
+}
+
+
+.flex {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon-size {
+    width: 3vw;
+}
+
+
+.error {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 700;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 250px) and (max-width: 900px) {
+    .box {
+        width: 90vw;
+        height: 52vh;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    .form input {
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 49vw;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .form button {
+        background-color: black;
+        color: whitesmoke;
+        font-size: medium;
+        padding: 2px 7px;
+        border: 2px solid whitesmoke;
+        border-radius: 10px;
+    }
+
+    .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        right: 2vw;
+        bottom: 2vh;
+    }
+
+    .footer {
+        width: 60vw;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 15px;
+        right: 22px;
+        justify-content: space-around;
+    }
+
+}
